@@ -31,6 +31,9 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
+        <Stack.Screen name="signIn.tsx" />
+        <Stack.Screen name="signUp.tsx" />
+        <Stack.Screen name="profile.tsx" />
       </Stack>
     </ThemeProvider>
   );
